@@ -1,0 +1,22 @@
+// navbar
+.navbar-nav {
+	@media (min-width: $grid-float-breakpoint) {
+		> li {
+			> a {
+				padding-top:    ($navbar-padding-vertical / 2);
+				padding-bottom: ($navbar-padding-vertical / 2);
+				margin-top:     $navbar-padding-vertical;
+				margin-right:   $padding-base-horizontal;
+				margin-bottom:  $navbar-padding-vertical;
+				margin-left:    $padding-base-horizontal;
+				border-radius:  $border-radius-large;
+			}
+			> .dropdown-menu {
+				margin-top: (-$navbar-padding-vertical / 4 * 3);
+			}
+		}
+		> li:not(:last-child) {
+			margin-right: ($navbar-padding-horizontal / 3);
+		}
+	}
+}

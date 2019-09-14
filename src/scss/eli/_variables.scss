@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+// Glyphicon Path
+$icon-font-path:          "../../lib/bootstrap/fonts/" !default;
+
+$font-size-base:          15px !default;
+
+// Color
+$body-bg:               #fff !default;
+$text-color:            #4c4245 !default;
+
+
+// Font
+$font-family-humanist-sans-serif: 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+$font-family-sans-serif:  'Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+$font-family-serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+// Navigation bar
+$navbar-height: 45px !default;
+$navbar-default-bg: #fff !default;
+$navbar-default-border: #ccc !default;
+
+// Navbar links
+$navbar-default-link-color:                #4c4245 !default;
+$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-hover-bg:             #f8b4c4 !default;
+$navbar-default-link-active-color:         #fff !default;
+$navbar-default-link-active-bg:            #ee7e94 !default;

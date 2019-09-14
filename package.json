@@ -1,0 +1,38 @@
+{
+  "name": "Eli",
+  "version": "2.0.0",
+  "description": "Eli is frontend development template for me.(include Honoka)",
+  "author": "windyakin",
+  "website": "http://eli.honokak.osaka/",
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windyakin/eli.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "bower": "^1.7.7",
+    "eslint": "^2.1.0",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^1.1.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csscomb": "^3.1.0",
+    "grunt-eslint": "^18.0.0",
+    "grunt-image": "^1.2.2",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-scss-lint": "^0.3.8",
+    "grunt-text-replace": "^0.4.0"
+  }
+}
